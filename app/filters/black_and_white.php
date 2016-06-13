@@ -1,7 +1,7 @@
 <?php
 
   $my_options_bw = get_option('black_and_white');
-  if ( $my_options_bw === yes_please ) {
+  if ( $my_options_bw === 'yes_please' ) {
 
     add_image_size( 'image-effects-1000-bw', 1000, 1000, false );
     add_image_size( 'image-effects-800-bw', 800, 800, false );

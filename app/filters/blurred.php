@@ -1,7 +1,7 @@
 <?php
 
   $my_options = get_option('blurred');
-  if ( $my_options === yes_please ) {
+  if ( $my_options === 'yes_please' ) {
 
     add_image_size( 'image-effects-1000-blurred', 1000, 1000, false );
     add_image_size( 'image-effects-800-blurred', 800, 800, false );

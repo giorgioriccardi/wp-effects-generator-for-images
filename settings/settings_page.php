@@ -2,7 +2,7 @@
 add_action('admin_menu', 'image_effects_create_menu');
 
 function image_effects_create_menu() {
-  add_options_page('Image Effects Settings', 'Image Effects Settings', 'manage_options', __FILE__, 'image_effects_settings_page',plugins_url('/images/icon.png', __FILE__));
+  add_options_page( 'Image Effects Settings', 'Image Effects Settings', 'manage_options', __FILE__, 'image_effects_settings_page', plugins_url('/images/icon.png', __FILE__) );
   add_action( 'admin_init', 'register_mysettings' );
 }
 
